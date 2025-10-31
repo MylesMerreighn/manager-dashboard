@@ -2,16 +2,6 @@ import tkinter as tk
 from tkinter import messagebox
 from dashboard_ui import Dashboard
 
-def login(self):
-    user = self.username_entry.get()
-    pw = self.password_entry.get()
-
-    if user == "admin" and pw == "1234":
-        self.root.withdraw()  # hide login
-        Dashboard().run()
-    else:
-        messagebox.showerror("Error", "Invalid credentials")
-
 class LoginWindow:
     def __init__(self):
         self.root = tk.Tk()
@@ -33,7 +23,10 @@ class LoginWindow:
         pw = self.password_entry.get()
 
         if user == "admin" and pw == "1234":
-            messagebox.showinfo("Success", "Login successful!")
+            messagebox.showinfo("Login", "Login successful!")
+            self.root.withdraw()  # Hide the login window
+            dashboard = Dashboard()
+            dashboard.run()
         else:
             messagebox.showerror("Error", "Invalid credentials")
 
