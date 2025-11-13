@@ -1,0 +1,11 @@
+company_name,revenue,monthly_shipments,industry,timezone,account_manager,last_contact
+Acme Logistics,125000,42,Manufacturing,CST,Myles,2025-02-10
+Beta Freight Co,87000,31,Construction,EST,Myles,2025-03-01
+Cobalt Machinery,210000,18,Heavy Equipment,MST,Myles,2025-01-28
+Delta Plastics,54000,27,Chemicals,CST,Myles,2025-02-22
+Evergreen Timber,92000,34,Forestry,PST,Myles,2025-03-05
+Frontier Mining,180000,12,Mining,MST,Myles,2025-02-14
+Genesis Foods,76000,29,Food Production,EST,Myles,2025-03-02
+Horizon Metals,142000,22,Industrial,CST,Myles,2025-02-18
+IronWorks Fabrication,98000,25,Manufacturing,CST,Myles,2025-03-06
+Jetstream Auto Parts,63000,33,Automotive,EST,Myles,2025-03-04
